@@ -139,7 +139,7 @@
 					return rows.map(function(row){return row[key];});
 				}
 				scihumTrace = {
-					name: 'Science Policy',
+					name: 'Science for Humanity',
 					x:unpack(rows, 'Place (x)'),
 					y:unpack(rows, 'Knowledge (y)'),
 					z:unpack(rows, 'Action (z)'),
@@ -190,7 +190,7 @@
 					return rows.map(function(row){return row[key];});
 				}
 				ijTrace = {
-					name: 'Earth Justice',
+					name: 'Indigenous Justice',
 					x:unpack(rows, 'Place (x)'),
 					y:unpack(rows, 'Knowledge (y)'),
 					z:unpack(rows, 'Action (z)'),
@@ -322,10 +322,10 @@
 					type: 'scatter3d'
 				};
 				scihumTrace = {
-					name: 'Science Policy',
-					x:unpack(rows, 'Place (x)', 'Science Policy'),
-					y:unpack(rows, 'Knowledge (y)', 'Science Policy'),
-					z:unpack(rows, 'Action (z)', 'Science Policy'),
+					name: 'Science for Humanity',
+					x:unpack(rows, 'Place (x)', 'Science for Humanity'),
+					y:unpack(rows, 'Knowledge (y)', 'Science for Humanity'),
+					z:unpack(rows, 'Action (z)', 'Science for Humanity'),
 					mode: 'markers',
 					marker: {
 						size: 5,
@@ -335,10 +335,10 @@
 					type: 'scatter3d'
 				};
 				ijTrace = {
-					name: 'Earth Justice',
-					x:unpack(rows, 'Place (x)', 'Earth Justice'),
-					y:unpack(rows, 'Knowledge (y)', 'Earth Justice'),
-					z:unpack(rows, 'Action (z)', 'Earth Justice'),
+					name: 'Indigenous Justice',
+					x:unpack(rows, 'Place (x)', 'Indigenous Justice'),
+					y:unpack(rows, 'Knowledge (y)', 'Indigenous Justice'),
+					z:unpack(rows, 'Action (z)', 'Indigenous Justice'),
 					mode: 'markers',
 					marker: {
 						size: 5,
@@ -411,8 +411,8 @@
 		<button type="button" id="Small Green Steps" onclick="sibPlot()">Small Green Steps</button>
 		<button type="button" id="Ecoscience" onclick="ecosciPlot()">Ecoscience</button>
 		<button type="button" id="Ecospirituality" onclick="ecospirPlot()">Ecospirituality</button>
-		<button type="button" id="Earth Justice" onclick="ijPlot()">Earth Justice</button>
-		<button type="button" id="Science Policy" onclick="scihumPlot()">Science Policy</button>
+		<button type="button" id="Indigenous Justice" onclick="ijPlot()">Indigenous Justice</button>
+		<button type="button" id="Science for Humanity" onclick="scihumPlot()">Science for Humanity</button>
 		<button type="button" id="All EcoTypes" onclick="showPlotAll()">Show all</button>
 	</div>
 	<h3 id="title">All EcoTypes</h3>
